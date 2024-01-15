@@ -3,7 +3,7 @@
 
 import openai
 
-KEY = "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"
+KEY = "-------伏字-------"
 openai.api_key = KEY
 
 messages = [

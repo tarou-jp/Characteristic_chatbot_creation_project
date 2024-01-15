@@ -13,7 +13,7 @@ from llama_index.schema import TextNode
 import datetime
 
 # 環境変数の設定
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "-------伏字-------"
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 def init():

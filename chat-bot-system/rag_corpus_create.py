@@ -12,7 +12,7 @@ import json
 from llama_index import SimpleDirectoryReader
 
 # 環境変数の設定
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "-------伏字-------"
 openai.api_key = os.environ["OPENAI_API_KEY"]
 
 big5 = [["unfriendly","friendly","introverted","extroverted","timid","bold",'activity-level',"inactive","active","unenergetic","energetic","gloomy","cheerful"],
