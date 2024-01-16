@@ -1,4 +1,4 @@
-# キャラクター性を持つ言語モデルプロジェクト
+![image](https://github.com/tarou-jp/Characteristic_chatbot_creation_project/assets/117962902/fbd9ec65-e35a-4f07-9b28-4e0dcb54fb60)# キャラクター性を持つ言語モデルプロジェクト
 
 ## 概要
 このプロジェクトは、言語モデルにキャラクター性を持たせることを目指した。言語モデルに名前、性格、知識を基にした一貫性のある応答能力を付与し、最終的にはユーザーと会話できるシステムを構築を行った。
@@ -11,8 +11,11 @@
 1. **How to Say (口調によるキャラクター性の付与)**: 言語モデルの話し方や口調を特定のキャラクター性を付与させる（例：〜ざます）。
 2. **What to Say (話題によるキャラクター性の付与)**: キャラクターの記憶や性格を基にした話題をプロンプトを通じて実装することでキャラクター性を付与する。
 
+## ディレクトリ説明
+本ページでは、プロジェクト実装におけるソースコードの一部を置いている。使用したデータ等は含まれていません。
+
 ## システム概要図
-このページでは、プロジェクト実装におけるソースコードの一部を公開しています。使用したデータ等は含まれていません。
+![image](https://github.com/tarou-jp/Characteristic_chatbot_creation_project/assets/117962902/bbfe5b37-d846-456a-a322-fb2147cb63ad)
 
 ## システム説明
 ユーザーの入力は二つの言語モデルを通して処理される。
@@ -24,9 +27,19 @@
 
 これらのプロセスにより、言語モデルはキャラクターが持つ知識や記憶に基づいたより豊かで関連性の高い会話を行うこと可能となる。
 
+## 使用例
+![image](https://github.com/tarou-jp/Characteristic_chatbot_creation_project/assets/117962902/a1eb960b-f8aa-48b5-aba9-dbfa0971f148)
+![image](https://github.com/tarou-jp/Characteristic_chatbot_creation_project/assets/117962902/6dac9843-0dec-41cb-b5cc-704c801bc25a)
+
+
 ## 使用技術
 - Python
 - Flask
 - HTML
 - CSS
 - Open-NMT
+
+## 習得した技術
+- 言語モデルを学習させるためのデータ用意、データ処理の技術
+- flaskを用いたweb開発
+- Open-NMTを用いた言語モデルの作成
